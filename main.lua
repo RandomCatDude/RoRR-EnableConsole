@@ -621,7 +621,7 @@ add_command("find (class) (pattern)", function(args)
 						linecount = linecount + 1
 					end
 				elseif pattern == "*" then
-					substring = string.."["..tostring(i-1).."] : -empty-\n"
+					substring = substring.."["..tostring(i-1).."] : -empty-\n"
 					linecount = linecount + 1
 				end
 			end
