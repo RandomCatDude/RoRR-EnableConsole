@@ -1,10 +1,10 @@
 {
     "name": "EnableConsole",
-    "version_number": "1.0.1",
+    "version_number": "1.0.4",
     "website_url": "https://github.com/RandomCatDude/RoRR-EnableConsole",
     "description": "Enables the in-game console.",
 	"dependencies": [
 		"ReturnOfModding-ReturnOfModding-1.0.47",
-		"RoRRModdingToolkit-RoRR_Modding_Toolkit-1.1.21"
+		"RoRRModdingToolkit-RoRR_Modding_Toolkit-1.2.0"
 	]
 }

@@ -1,4 +1,4 @@
-mods["RoRRModdingToolkit-RoRR_Modding_Toolkit"].auto()
+mods["RoRRModdingToolkit-RoRR_Modding_Toolkit"].auto(true)
 
 -- check that a console instance doesn't exist already
 if GM.instance_number(gm.constants.oConsole) == 0 then
@@ -565,6 +565,7 @@ local classes = {
 	actor_skin			= "class_actor_skin",
 	actor_state			= "class_actor_state",
 	artifact			= "class_artifact",
+	buff				= "class_buff",
 	difficulty			= "class_difficulty",
 	elite				= "class_elite",
 	ending				= "class_ending_type",
