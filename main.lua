@@ -44,10 +44,7 @@ local function util_namespace_unpack(pair)
 end
 
 local function init()
-	Callback.add("console_onCommand", "EnableConsoleCommand", function(self, other, result, args)
-		--Helper.log_hook(self, other, result, args)
-
-		local input = args[2].value
+	Callback.add(Callback.TYPE.console_onCommand, "EnableConsoleCommand", function(input)
 		local cmd = {}
 		for split in string.gmatch(input, "[^%s]+") do
 			table.insert(cmd, split)
